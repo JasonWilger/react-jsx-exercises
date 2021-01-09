@@ -1,17 +1,49 @@
 let ProfilePic = () => {
-    return <span>Make this component render an image</span>
+    return(
+        <div>
+            <img src="https://avatarmaker.com/images/other/cartoon-m.png"/>
+        </div>
+    )
 }
 
 let CommentBody = () => {
-    return <span>Make this component render a username in bold above the comment text</span>
+    return (
+        <div>
+            <b>Username</b>
+        </div>
+    )
 }
 
 let Comment = () => {
-    return <span>Make each comment render a profile picture and the comment body</span>
+    return(
+        <div>
+        <ProfilePic />
+        <CommentBody />
+        </div>
+    )
 }
 
 let Comments = () => {
-    return <span>Make this component render a list of comments</span>
+    return (
+        <div>
+            <Comment />
+            <Comment />
+            <Comment />
+            <Comment />
+            <Comment />
+            <Comment />
+            <Comment />
+            <Comment />
+            <Comment />
+            <Comment />
+            <Comment />
+            <Comment />
+            <Comment />
+            <Comment />
+            <Comment />
+            <Comment />
+        </div>
+    )
 }
 
 ReactDOM.render(<Comments />, document.getElementById('root'))

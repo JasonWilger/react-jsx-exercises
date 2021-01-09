@@ -1,16 +1,57 @@
 let Header = () => {
-    return <span>Design a header for your blog</span>
+    return(
+        <div id="header">
+            <h1 style={{color: "green"}}>Jason's Blog Header</h1>
+        </div>
+    )
 }
+
 let Article = () => {
-    return <span>Write and design your blog article</span>
+    return(
+        <div>
+            <h2>This is a sub-header of my article</h2>
+                <p>blah blah blah blah blah blah blah blah blah blah blah blah blah <br></br>
+                    blah blah blah blah blah blah blah blah blah blah blah blah blah<br></br>
+                    blah blah blah blah blah blah blah blah blah blah blah blah blah<br></br>
+                    blah blah blah blah blah blah blah blah blah blah blah blah blah<br></br>
+                    blah blah blah blah blah blah blah blah blah blah blah blah blah<br></br>
+                    blah blah blah blah blah blah blah blah blah blah blah blah blah<br></br>
+                    blah blah blah blah blah blah blah blah blah blah blah blah blah<br></br>
+                    blah blah blah blah blah blah blah blah blah blah blah blah blah<br></br>
+                    blah blah blah blah blah blah blah blah blah blah blah blah blah<br></br>
+                    blah blah blah blah blah blah blah blah blah blah blah blah blah<br></br>
+                    blah blah blah blah blah blah blah blah blah blah blah blah blah<br></br>
+                    blah blah blah blah blah blah blah blah blah blah blah blah blah<br></br>
+                    blah blah blah blah blah blah blah blah blah blah blah blah blah<br></br>
+                    blah blah blah blah blah blah blah blah blah blah blah blah blah<br></br>
+                    blah blah blah blah blah blah blah blah blah blah blah blah blah<br></br>
+                    blah blah blah blah blah blah blah blah blah blah blah blah blah<br></br>
+                    blah blah blah blah blah blah blah blah blah blah blah blah blah
+                </p>
+        </div>
+    )
 }
+
 let Footer = () => {
-    return <span>Design a footer for your blog</span>
+    return(
+        <div id="footer">
+            <h2>Thank you for reading my blog!</h2>
+            <p>If you'd like to contact me more about my blog
+                <a href="mailto:not-really@email.com" style={{color: "green"}}> email </a>
+                me here!
+                </p>
+        </div>
+    )
 }
 
 let Blog = () => {
-    return <span>Make this Component render the header, article, and footer</span>
+    return(
+        <div>
+        <Header />
+        <Article />
+        <Footer />
+        </div>
+    )
 }
-
 
 ReactDOM.render(<Blog />, document.getElementById('root'))
