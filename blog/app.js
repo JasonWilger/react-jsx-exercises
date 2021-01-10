@@ -10,22 +10,22 @@ let Article = () => {
     return(
         <div>
             <h2>This is a sub-header of my article</h2>
-                <p>blah blah blah blah blah blah blah blah blah blah blah blah blah <br></br>
-                    blah blah blah blah blah blah blah blah blah blah blah blah blah<br></br>
-                    blah blah blah blah blah blah blah blah blah blah blah blah blah<br></br>
-                    blah blah blah blah blah blah blah blah blah blah blah blah blah<br></br>
-                    blah blah blah blah blah blah blah blah blah blah blah blah blah<br></br>
-                    blah blah blah blah blah blah blah blah blah blah blah blah blah<br></br>
-                    blah blah blah blah blah blah blah blah blah blah blah blah blah<br></br>
-                    blah blah blah blah blah blah blah blah blah blah blah blah blah<br></br>
-                    blah blah blah blah blah blah blah blah blah blah blah blah blah<br></br>
-                    blah blah blah blah blah blah blah blah blah blah blah blah blah<br></br>
-                    blah blah blah blah blah blah blah blah blah blah blah blah blah<br></br>
-                    blah blah blah blah blah blah blah blah blah blah blah blah blah<br></br>
-                    blah blah blah blah blah blah blah blah blah blah blah blah blah<br></br>
-                    blah blah blah blah blah blah blah blah blah blah blah blah blah<br></br>
-                    blah blah blah blah blah blah blah blah blah blah blah blah blah<br></br>
-                    blah blah blah blah blah blah blah blah blah blah blah blah blah<br></br>
+                <p>blah blah blah blah blah blah blah blah blah blah blah blah blah <br />
+                    blah blah blah blah blah blah blah blah blah blah blah blah blah<br />
+                    blah blah blah blah blah blah blah blah blah blah blah blah blah<br />
+                    blah blah blah blah blah blah blah blah blah blah blah blah blah<br />
+                    blah blah blah blah blah blah blah blah blah blah blah blah blah<br />
+                    blah blah blah blah blah blah blah blah blah blah blah blah blah<br />
+                    blah blah blah blah blah blah blah blah blah blah blah blah blah<br />
+                    blah blah blah blah blah blah blah blah blah blah blah blah blah<br />
+                    blah blah blah blah blah blah blah blah blah blah blah blah blah<br />
+                    blah blah blah blah blah blah blah blah blah blah blah blah blah<br />
+                    blah blah blah blah blah blah blah blah blah blah blah blah blah<br />
+                    blah blah blah blah blah blah blah blah blah blah blah blah blah<br />
+                    blah blah blah blah blah blah blah blah blah blah blah blah blah<br />
+                    blah blah blah blah blah blah blah blah blah blah blah blah blah<br />
+                    blah blah blah blah blah blah blah blah blah blah blah blah blah<br />
+                    blah blah blah blah blah blah blah blah blah blah blah blah blah<br />
                     blah blah blah blah blah blah blah blah blah blah blah blah blah
                 </p>
         </div>
